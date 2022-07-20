@@ -10,11 +10,11 @@
   margin: 1px 1.2px;
 }
 .downCell {
-  background: url("../../../public/assets/loser.png") center center no-repeat;
+  background: url("/assets/loser.png") center center no-repeat;
 }
 .startCell {
-  background: url("../../../public/assets/start.png") center center no-repeat;
+  background: url("/assets/start.png") center center no-repeat;
 }
 .finishCell {
-  background: url("../../../public/assets/finish.png") center center no-repeat;
+  background: url("/assets/finish.png") center center no-repeat;
 }

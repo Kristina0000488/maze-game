@@ -1,8 +1,8 @@
 import React, { useState }          from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import Maze         from '../../components/Maze';
-import StartMessage from '../../components/StartMessage';
+import Maze         from '../Maze';
+import StartMessage from '../StartMessage';
 
 import {
   selectMinMax,

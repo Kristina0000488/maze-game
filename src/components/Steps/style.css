@@ -19,7 +19,7 @@
 .left {
   width: 35px;
   height: 35px;
-  background: url("../../../public/assets/arrow.png") center center no-repeat;
+  background: url("/assets/arrow.png") center center no-repeat;
   background-size: 35px 35px;
 }
 .up {

@@ -6,7 +6,7 @@
 .win_wallpaper {
   width: 150px;
   height: 150px;
-  background: url("../../../public/assets/win.png") center center no-repeat;
+  background: url("/assets/win.png") center center no-repeat;
   background-size: 150px 150px;
   position: absolute;
   bottom: 40%;
@@ -50,7 +50,7 @@
 .fail_wallpaper {
   width: 100px;
   height: 150px;
-  background: url("../../../public/assets/fail.png") center center no-repeat;
+  background: url("/assets/fail.png") center center no-repeat;
   background-size: 100px 150px !important;
   transform: rotate(37deg);
 }

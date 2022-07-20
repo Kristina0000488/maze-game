@@ -5,8 +5,8 @@ import React, {
 
 import { 
     buildMaze, 
-    getKey 
-} from '../../helpers';
+    getCell 
+} from '../../helpers/engine';
 
 import Cell               from '../Cell';
 import WallpaperContainer from '../WallpaperContainer';
@@ -54,7 +54,7 @@ function Maze({ amountSteps=0, size=0, startNewGame })
 
         for (let index = 1; index <= size; index++) 
         {
-            const key = getKey(idRow, index);         
+            const key = getCell(idRow, index);         
 
             cells.push( <Cell 
                 key={ key } 
