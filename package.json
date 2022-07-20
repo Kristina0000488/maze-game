@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "react-scripts start",
+  "engines": {
+    "node": "16.14.2"
   }
 }
