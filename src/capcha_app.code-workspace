@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\capcha_app"
+		},
+		{
+			"path": "..\\..\\..\\test_react-ts"
+		},
+		{
+			"path": "..\\..\\..\\examples"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {}
+}

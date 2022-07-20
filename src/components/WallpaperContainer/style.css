@@ -1,0 +1,59 @@
+.wallpaper {
+  position: relative;
+  padding: 0 10px;
+}
+.fail_wallpaper,
+.win_wallpaper {
+  width: 150px;
+  height: 150px;
+  background: url("../../../public/assets/win.png") center center no-repeat;
+  background-size: 150px 150px;
+  position: absolute;
+  bottom: 40%;
+  -webkit-animation: fade-in 0.47s linear infinite alternate;
+  -moz-animation: fade-in 0.47s linear infinite alternate;
+  animation: fade-in 0.47s linear infinite alternate;
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fail_wallpaper:first-child,
+.win_wallpaper:first-child {
+  left: -150px;
+}
+.fail_wallpaper:last-child,
+.win_wallpaper:last-child {
+  right: -150px;
+  transform: scale(-1, 1);
+}
+.fail_wallpaper {
+  width: 100px;
+  height: 150px;
+  background: url("../../../public/assets/fail.png") center center no-repeat;
+  background-size: 100px 150px !important;
+  transform: rotate(37deg);
+}
+.fail_wallpaper:last-child {
+  transform: rotate(37deg);
+}

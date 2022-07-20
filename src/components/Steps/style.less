@@ -1,0 +1,40 @@
+@import '../../varibles.less';
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 255px;
+}
+
+.step {
+    width: @size-step;
+    height: @size-step;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.down,
+.up,
+.right,
+.left {
+    width: @size-step-icon;
+    height: @size-step-icon;
+    background: url(@arrow) center center no-repeat;
+    background-size: @size-step-icon @size-step-icon;
+}
+
+.up {
+    transform: rotate(270deg);
+}
+
+.down {
+    transform: rotate(90deg);
+}
+
+.left {
+    transform: rotate(180deg);
+}

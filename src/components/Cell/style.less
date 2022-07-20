@@ -1,0 +1,25 @@
+@import '../../varibles.less';
+
+.cell,
+.downCell,
+.startCell,
+.finishCell {
+    width: @size-cell;
+    height: @size-cell;
+    outline: #00000096 solid 1px ;
+    background-color: @cell-color;
+    box-sizing: border-box;
+    margin: 1px 1.2px;
+}
+
+.downCell {
+    background: url(@loser) center center no-repeat;
+}
+
+.startCell {
+    background: url(@start) center center no-repeat;
+}
+
+.finishCell {
+    background: url(@finish) center center no-repeat;
+}

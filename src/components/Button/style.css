@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Work San';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap') format('woff2');
+}
+button {
+  display: block;
+  margin: 0 auto;
+  line-height: 28px;
+  padding: 0 20px;
+  background: #f5a9e7;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 1px 1px #93daec, 3px 3px 1px 2px #000000;
+  text-align: center;
+}
+button:hover {
+  background: #000000;
+  color: white;
+  border: 1px solid #000000;
+}
+button ::selection {
+  background: #ffc8ff;
+}

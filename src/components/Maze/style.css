@@ -1,0 +1,15 @@
+.maze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rows_maze {
+  margin: 0 0 15px 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.steps_maze {
+  margin: 0 0 25px 0;
+}
