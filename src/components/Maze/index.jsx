@@ -15,7 +15,13 @@ import Steps              from '../Steps';
 
 import './style.css';
 
-
+/**
+ * Maze 
+ * @param { number } amountSteps   
+ * @param { number } size amount of cells
+ * @param { function } startNewGame  
+ * @returns { JSX.Element }
+ */
 function Maze({ amountSteps=0, size=0, startNewGame }) 
 {
     const [ startCell,      setStartCell      ] = useState( null  );
@@ -34,6 +40,11 @@ function Maze({ amountSteps=0, size=0, startNewGame })
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [] );
     
+    /**
+     * Get rows
+     * @param { number } size 
+     * @returns { array } array of rows
+     */
     const renderRows = (size) => 
     {
         const rows = [];

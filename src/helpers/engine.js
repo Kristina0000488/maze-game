@@ -36,7 +36,7 @@ export function buildMaze(sizeMaze, amountSteps)
 }
 
 /**
- * 
+ * Generate random cell
  * @param {number} sizeMaze 
  * @returns {string} generate random cell
  */
@@ -109,7 +109,7 @@ export function getNextStep(idStartRow, idStartCellRow, sizeMaze, lastDirection)
 }
 
 /**
- * Get posible direction in maze for move from current cell
+ * Get possible direction in maze for move from current cell
  * @param {number} idRow 
  * @param {number} idCell 
  * @param {number} sizeMaze 

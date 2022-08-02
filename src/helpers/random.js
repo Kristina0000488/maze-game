@@ -1,5 +1,5 @@
 /**
- * Get random int in diaposon
+ * Get a random int in a diaposon
  * @param {Number} max 
  * @param {Number} min 
  * @returns {Number}
@@ -17,7 +17,7 @@ export function int(max, min=1)
 }
 
 /**
- * Choice random element from array
+ * Choice a random element from an array
  * @param {T[]} arr array with some values 
  * @returns {T} random choiced value from arr
  * @template T   

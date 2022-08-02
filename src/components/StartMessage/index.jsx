@@ -4,7 +4,17 @@ import Button from '../Button';
 
 import './style.css';
 
-
+/**
+ * StartMessage at the start of game
+ * @param { string } value   
+ * @param { array } headerText amount texts at array as amount of strings at div
+ * @param { function } onSubmit  
+ * @param { function } onChange  
+ * @param { string } placeholder
+ * @param { string } min
+ * @param { string } max
+ * @returns { JSX.Element }
+ */
 function StartMessage({ 
     value='', 
     headerText=[], 

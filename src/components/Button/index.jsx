@@ -2,7 +2,13 @@ import React from 'react';
 
 import './style.css';
 
-
+/**
+ * Button
+ * @param { string } text   
+ * @param { function } onClick  
+ * @param { boolean } visible  
+ * @returns 
+ */
 function Button({ text='', onClick, visible=true }) 
 {
     return (

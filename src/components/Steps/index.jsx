@@ -3,6 +3,12 @@ import React, { useEffect, useState } from 'react';
 import './style.css';
 
 
+/**
+ * Steps   
+ * @param { array } stepsDirections stepd with directions
+ * @param { function } onEndRenderSteps when the end of a render of steps
+ * @returns { JSX.Element }
+ */
 function Steps({ stepsDirections, onEndRenderSteps }) 
 { 
     const [ itemsRendered, setItemsRendered ] = useState({});

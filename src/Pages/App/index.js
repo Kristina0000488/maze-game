@@ -1,8 +1,8 @@
 import React, { useState }          from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import Maze         from '../Maze';
-import StartMessage from '../StartMessage';
+import Maze         from '../../components/Maze';
+import StartMessage from '../../components/StartMessage';
 
 import {
   selectMinMax,
@@ -15,7 +15,9 @@ import {
 
 import './style.css';
 
-
+/*
+  * The main page. Game setup and launch.
+*/
 function App() 
 {
   const { min, max }    = useSelector(selectMinMax);
