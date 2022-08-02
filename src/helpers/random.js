@@ -6,7 +6,7 @@
  */
 export function int(max, min=1)
 { 
-    if ( max > min )
+    if ( max < min ) // Для исправления, если max меньше, чем min
     {
         let tmp = max;
         max = min;
