@@ -10,7 +10,7 @@ export function int(max, min=1)
     {
         let tmp = max;
         max = min;
-        min = tmp;
+        min = tmp; 
     }
 
     return Math.floor(Math.random() * (max - min)) + min;
